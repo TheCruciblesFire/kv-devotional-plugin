@@ -1,1 +1,22 @@
+{
+  "name": "kv-devotion-plugins",
+  "interface": {
+    "displayName": "KV Devotion Plugins"
+  },
+  "plugins": [
+    {
+      "name": "kv-devotion-plugin",
+      "pluginId": "Plugin_b506dabc2380819190fad684064528d6",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kv-devotion-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
 
