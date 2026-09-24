@@ -11,7 +11,7 @@
     "defaultPrompt": "Plan a five-day devotional arc from this passage or approved study handoff. Keep the controlling text primary and do not draft the finished devotionals unless I ask you to build them."
   },
   "name": "kv-devotion-plugin-workspace",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Scripture-centered devotional formation from approved passages, study handoffs, and active reading plans, with bounded specialist Skills and clear upstream/downstream routing.",
   "author": {
     "name": "Matt Parker"
