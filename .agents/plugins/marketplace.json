@@ -19,4 +19,15 @@
     }
   ]
 }
-
+{
+  "name": "kv-devotion-plugin-workspace",
+  "source": {
+    "source": "local",
+    "path": "./plugins/kv-devotion-plugin-workspace"
+  },
+  "policy": {
+    "installation": "AVAILABLE",
+    "authentication": "ON_INSTALL"
+  },
+  "category": "Productivity"
+}
