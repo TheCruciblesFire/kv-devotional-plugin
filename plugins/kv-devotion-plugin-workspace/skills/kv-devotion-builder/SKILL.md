@@ -29,17 +29,20 @@ Apply this order unless the active Project explicitly establishes a newer contro
 6. Validated supporting Skills for procedures they own.
 7. Legacy GPT behavior, old agents, samples, and migration evidence only for regression or style comparison.
 
-Never let a sample, remembered schedule, preferred framework, or prior AI output overrule the controlling passage or current approved Project source.
+Never let a sample, remembered schedule, preferred framework, prior chat, model memory, or prior AI output substitute for or overrule the controlling passage or current approved Project source.
+
+For any named, numbered, dated, or scheduled devotional week/day, require the exact active Project reading-plan entry or other accessible controlling source before building. A user request to "use what you remember" does not waive this source gate. If the controlling entry is unavailable, do not reconstruct it from memory. Request or retrieve the active entry, or clearly offer a separate non-reading-plan passage-based draft.
 
 ## Intake and mode
 
 1. Identify the requested mode: plan, draft, revise, audit, derivative, export, or handoff.
 2. Resolve the controlling passage, source text or handoff, audience, active reading-plan edition if any, week/day, translation, length, and requested output format from available context.
-3. Ask only for missing information that materially changes the result. Use existing Project context instead of asking the user to repeat known constraints.
+3. Ask only for missing information that materially changes the result. Use accessible active Project source context instead of asking the user to repeat known constraints, but do not treat prior-chat memory or model memory as a controlling reading-plan source.
 4. A plan, weekly plan, arc, overview, or outline request receives planning material only. Do not draft the finished devotionals unless the user asks to build, write, draft, create, or continues an already established plan-then-build workflow.
-5. A directly assigned passage can support a straightforward devotional without a formal study handoff when the needed observations are clear and text-grounded. Research, disputed interpretation, original-language verification, historical reconstruction, or a weak source base belongs upstream in KV Study Engine or in a bounded audit.
-6. For a named or numbered reading-plan week, use the exact active Project entries. Do not reconstruct a locked schedule from memory. Never substitute another year or series.
-7. Preserve locked titles, Main Goal, Core Teaching, readings, day categories, and approved cautions unless the user explicitly revises them.
+5. When a plan-only response explicitly defers finished devotional writing until user approval, a subsequent approval such as "approved," "looks good," or equivalent authorizes the pending build immediately. Build the previously approved scope unless the user adds revisions. Do not merely acknowledge, re-lock, or restate the plan.
+6. A directly assigned passage can support a straightforward devotional without a formal study handoff when the needed observations are clear and text-grounded. Research, disputed interpretation, original-language verification, historical reconstruction, or a weak source base belongs upstream in KV Study Engine or in a bounded audit.
+7. For a named or numbered reading-plan week/day, use the exact active Project entries. Do not reconstruct a locked schedule from memory, prior conversations, completed devotional weeks, model context, or another year's plan. If the exact active entry is unavailable, stop the reading-plan build until it is supplied or retrieved.
+8. Preserve locked titles, Main Goal, Core Teaching, readings, day categories, and approved cautions unless the user explicitly revises them.
 
 ## Core ownership
 
@@ -74,7 +77,7 @@ Honor each day's role:
 
 For a series week, identify Inherited Truth, New Contribution, and Forward Movement only from supplied continuity. Keep these editor-facing unless the Project specifically wants them surfaced. If earlier weeks are unavailable, do not claim cross-series originality.
 
-Write connected, paragraph-dominant, pastoral prose. Let readers see something specific in the text before inviting self-examination. Preserve lament, waiting, grief, judgment, mystery, or unresolved tension when the passage preserves it.
+Write connected, paragraph-dominant, pastoral prose. Build ordinary exposition, explanation, transition, and application into developed paragraphs rather than stacked speaking-note sentences. As a working norm, most devotional-body paragraphs should contain 3-6 sentences when the material supports it. Ordinary one-sentence paragraphs are exceptions, not the default rhythm; limit them to no more than two per devotional body unless the passage or a deliberate rhetorical climax, refrain, Scripture block, actual list, or response sequence clearly requires more. Do not use consecutive one-sentence paragraphs for ordinary exposition, application, or transitions. Let readers see something specific in the text before inviting self-examination. Preserve lament, waiting, grief, judgment, mystery, or unresolved tension when the passage preserves it.
 
 Avoid:
 
@@ -96,7 +99,7 @@ Follow [devotional-standard.md](references/devotional-standard.md) for format, l
 
 ## Revision and review
 
-When revising, preserve the approved source burden, voice, structure, passages, and cautions within the requested change. Tighten by removing repetition before removing text-rooted substance.
+When revising, preserve the approved source burden, voice, structure, passages, and cautions within the requested change. Tighten by removing repetition before removing text-rooted substance. After drafting or substantive revision, run a prose-normalization pass: scan every six consecutive paragraphs, and if three or more are ordinary one-sentence paragraphs, merge related material unless those paragraphs form a clearly intentional quotation, list, refrain, climax, Scripture block, or response sequence. The final body should read as continuous narrative prose rather than stacked speaking notes.
 
 When the user asks for an audit or check, diagnose before rewriting. Use [editorial-review.md](references/editorial-review.md) for devotional-specific editorial review. Invoke a specialist Skill when the request belongs to that Skill's procedure.
 
@@ -145,4 +148,4 @@ Do not add connectors, MCP servers, publishing actions, or administrative integr
 
 ## Delivery discipline
 
-Deliver the requested item without unsolicited menus, extra assets, or scope expansion. If the user established a plan-then-approval workflow, honor it. A reply such as "approved" continues the pending agreed step; it does not authorize unrelated downstream assets.
+Deliver the requested item without unsolicited menus, extra assets, or scope expansion. If the user established a plan-then-approval workflow, honor it as an executable workflow. When the plan explicitly defers writing until approval, a reply such as "approved" authorizes the pending build immediately. Do not merely acknowledge approval or restate the plan. Approval does not authorize unrelated downstream assets.
