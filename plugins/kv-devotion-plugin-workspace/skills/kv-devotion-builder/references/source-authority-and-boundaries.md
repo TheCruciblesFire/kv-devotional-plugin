@@ -16,6 +16,8 @@ A newer timestamp alone does not make a source controlling. Approval, role, and 
 
 Do not merge conflicting versions silently. Preserve the controlling source and identify a material conflict when it affects the requested output.
 
+A current user request may revise content, scope, or format, but it does not turn memory into an authoritative reading-plan source. For any named, numbered, dated, or scheduled devotional week/day, require the exact active Project entry or another accessible controlling source before building. Do not reconstruct that entry from prior chats, model memory, completed devotional weeks, remembered schedules, or another year's plan, even when the remembered material happens to be correct. If the source is unavailable, request or retrieve it, or clearly offer a separate non-reading-plan passage-based draft.
+
 ## Reusable plugin content
 
 The reusable plugin may carry:
@@ -93,9 +95,11 @@ Preserve source meaning in a concise handoff when downstream work is requested.
 Legacy Devotion Builder behavior is useful for checking parity, especially:
 
 - plan-only requests remain plans;
-- locked reading-plan entries remain immutable unless explicitly revised;
+- approval after an explicit plan-then-build gate executes the pending build rather than merely acknowledging approval;
+- locked reading-plan entries remain immutable unless explicitly revised and are never reconstructed from memory;
 - the Story -> Worldview -> Heart -> Way -> Worship & Response rhythm remains available;
 - daily reflection, prayer, and Finish This Sentence remain part of the standard devotional shape;
+- devotional prose remains connected and paragraph-dominant rather than choppy sentence stacks;
 - simple social derivatives remain available;
 - ministry-domain separation remains enforced.
 
