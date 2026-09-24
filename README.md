@@ -1,22 +1,16 @@
-# KV Devotion Plugin
+# KV Course Builder Plugin
 
-Production release: **1.1.1**
+Stage 5 regression-candidate repository.
 
-Runtime path: `plugins/kv-devotion-plugin/`  
+Runtime path: `plugins/kv-course-builder-plugin/`  
 Marketplace manifest: `.agents/plugins/marketplace.json`
 
-This repository is the GitHub-managed distribution source for **KV Devotion Plugin**.
+The runtime contains the `kv-course-builder` core Skill plus ten bounded supporting Skills. Fresh biblical study remains upstream in KV Study Plugin / `kv-study-engine`; sermon and devotional production remain with their own plugins; final media, publishing, LMS/MCG/NotebookLM, and upload packaging remain downstream.
 
-The runtime contains the `kv-devotion-builder` core Skill plus seven bounded supporting Skills. Research and full passage study remain upstream in KV Study Plugin. Sermon, course, final media, platform packaging, scheduling, and publishing remain downstream.
+## GitHub / workspace distribution
 
-## Existing Workspace plugin takeover
-
-Existing Workspace plugin ID:
-
-`Plugin_b506dabc2380819190fad684064528d6`
-
-The marketplace entry includes this value as `pluginId`. When this marketplace is imported into the same ChatGPT workspace, GitHub should become the source for the existing Workspace plugin instead of creating a second plugin. The plugin name in the marketplace and runtime remains `kv-devotion-plugin`.
+Push this repository unchanged to a new GitHub repository, recommended name `kv-course-builder-plugin`. A workspace administrator can then import the repository as a marketplace from Workspace settings > Plugins > Add > Import marketplace. Leave Path blank because the marketplace manifest is at the repository root under `.agents/plugins/marketplace.json`.
 
 ## Release discipline
 
-Do not edit a released runtime in place. Functional changes should use a new plugin version and rerun the relevant validation/regression checks before GitHub sync.
+Version `0.5.2` is a regression candidate, not production. Do not promote it until the installed workspace instance passes the post-install smoke set. After production release, functional changes require a new immutable version.
