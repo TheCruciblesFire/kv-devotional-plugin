@@ -2,7 +2,7 @@
 
 Production release: **1.1.1**
 
-Runtime path: `plugins/kv-devotion-plugin/`  
+Runtime path: `plugins/kv-devotion-plugin-workspace/`  
 Marketplace manifest: `.agents/plugins/marketplace.json`
 
 This repository is the GitHub-managed distribution source for **KV Devotion Plugin**.
